@@ -1,0 +1,75 @@
+<?php
+namespace App\models;
+
+class Product {
+    protected $id;
+    protected $title;
+    protected $description;
+    protected $price;
+    protected $sku;
+    protected $image;
+
+    // Get Methods
+    public function getId() {
+        return $this->id;
+    }
+
+    public function getTitle() {
+        return $this->title;
+    }
+
+    public function getDescription() {
+        return $this->description;
+    }
+
+    public function getPrice() {
+        return $this->price;
+    }
+
+    public function getSku() {
+        return $this->sku;
+    }
+
+    public function getimage() {
+        return $this->image;
+    }
+
+    // Set Methods
+    public function setTitle(string $title) {
+        $this->title = $title;
+    }
+
+    public function setDescription(string $description) {
+        $this->description = $description;
+    }
+
+    public function setPrice(string $price) {
+        $this->price = $price;
+    }
+
+    public function setSku(string $sku) {
+        $this->sku = $sku;
+    }
+
+    public function setImage(string $image) {
+        $this->image = $image;
+    }
+
+    // CRUD OPERATIONS
+    public function create(array $data) {
+
+    }
+
+    public function readOne(int $id) {
+
+    }
+
+    public function updateOne(int $id, array $data) {
+
+    }
+
+    public function deleteOne(int $id) {
+        
+    }
+
+}
