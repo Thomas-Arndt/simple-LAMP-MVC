@@ -1,0 +1,1 @@
+This is a learning experience to begin to understand the MVC architecture of a LAMP application.
